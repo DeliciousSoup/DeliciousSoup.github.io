@@ -1,0 +1,28 @@
+h1, p, a {
+    font-family: "Indie Flower", cursive;;
+}
+
+a:link {
+    color:plum;
+}
+a:visited {
+    color: cornflowerblue;
+}
+
+.mango_juice {
+    margin-top: 50%;
+}
+
+#C_3_00E8 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+#G_6_67E_11 {
+    position: absolute;
+    margin-left: 56%;
+    margin-top: 7%;
+    z-index: 1;
+}

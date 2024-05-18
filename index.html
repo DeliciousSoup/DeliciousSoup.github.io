@@ -2,6 +2,10 @@
 <head>
 	<title>Shakespeare Enthusiast</title>
 	<link rel="icon" type="image/x-icon" href="./img/ds.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Walter+Turncoat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 
@@ -9,7 +13,22 @@
 	<h1>Reasons Why Shakespeare is Amazing Beyond Imagination</h1>
 	<p>Thou is most terrible, and "Shall I Compare Thee to a Summer's Day" is clearly superior. Honestly, Shakespeare is just on a different level from everyone else, being able to speak alien English and all.</p>
 	<p>IMAGINE GETTING INSULTED/ROASTED BY SHAKESPEARE WHO AIN'T EVEN ALIVE ANYMORE</p>
-	<img src="./img/Shakespeare Insult.jpeg">
-	<a href="img/shakespeare.mp4">CLICK HERE TO LEARN MORE ABOUT SHAKESPEARE</a>
+	<div class="insufferable">
+		<img id="C_3_00E8" src="./img/Shakespeare Insult.jpeg">
+		<p id="G_6_67E_11" hidden>You are insufferable!!</p>
+	</div>
+	<div class="mango_juice">
+		<a href="img/shakespeare.mp4" target="_blank" onclick="PEKingDuCk()">CLICK HERE TO LEARN MORE ABOUT SHAKESPEARE</a>
+		<br/>
+		<a href="img/cat.mp4" target="_blank" onclick="PEKingDuCk()">CLICK HERE IF YOU ARE A CAT ENJOYER</a>
+	</div>
+	<script>
+		var sufferable = document.getElementById("G_6_67E_11");
+
+		function PEKingDuCk() {
+			sufferable.removeAttribute("hidden");
+			window.alert("You are insufferable!!");
+		}
+	</script>
 </body>
 
